@@ -3,4 +3,68 @@ body{
     padding: 0;
     /* prueba de funcionamiento */
     /* background: red; */
+    font-family: 'Poppins', sans-serif
+}
+.section-padding {
+    padding: 100px 0;
+}
+.section-header {
+    padding-bottom: 30px;
+}
+.navbar-brand{
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav-area {
+    background: #262626;
+}
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    color: #fff !important;
+    font-weight: bold;
+}
+.nav-item {
+    color: #fff;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+
+/* Slider Area */
+.slider-area {
+    background-image: url(/images/cataratas.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: #fff;
+    position: relative;
+}
+.slider-area: ::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top 0;
+    left: 0;
+    background: linearGradient(360deg,#000, transparent);
+}
+.slider-text h1{
+    font-size:45px;
+    font-weight: bold;
+}
+.slider-text a{
+    padding: 10px 15px;
+    background-color: #2980b9;
+    color: #fff;
+    display: inline-block;
+    margin-top: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+.slider-text {
+    text-align: center;
+    padding-top: 20%;
 }
