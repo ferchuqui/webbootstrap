@@ -218,6 +218,7 @@ html {
     height: 100px;
     display: inline-block;
     border-radius: 50%;
+    /* border: 1px solid #fff; */
     overflow: hidden;
 }
 .img-area img {
