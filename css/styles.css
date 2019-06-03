@@ -36,7 +36,7 @@ html {
 
 /* Slider Area */
 .slider-area {
-    background-image: url(/images/background.png);
+    background-image: url(../images/background.png);
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -89,7 +89,7 @@ html {
 
 /* stats area */
 .stats-area {
-    background-image: url(/images/team1.png);
+    background-image: url(../images/team1.png);
     background-attachment: fixed;
     -webkit-background-size: cover;
     background-size: cover;
