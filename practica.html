@@ -1,64 +1,47 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141715086-1"></script>
-
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Practica dia 1</title>
-  <style>
-    body{
-      margin: 0;
-      padding: 0;
-      font-family: arial, sans-serif;
-    }
-    header {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    main{
-      padding: 20px;
-      text-align: justify;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    footer {
-      background-color: #333;
-      color: fff;
-      padding: 20px;
-      text-align: center;
-    }
-    footer {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Encabezado de la página web</h1>
-  </header>
-
-  <main>
-    <p>Este es un párrafo de texto para mi página web simple. Puedo agregar más contenido aquí si lo deseo.</p>
-  </main>
-
-  <footer>
-    <p>Pie de página de mi página web simple.</p>
-  </footer>
-
-
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-141715086-1');
-  </script>
-  
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center m-5">30 dias de practica en HTML</h1>
+      <h2 class="text-center m-5">Durante un mes veremos diferentes consejos para poder aprender HTML en menos de un mes, utilizando también CSS, Bootstrap y Material Design.</h2>
+      <div class="row">
+        <!-- Crear 12 tarjetas utilizando la clase "card" de Bootstrap -->
+        <div class="col-sm-4">
+          <div class="card">
+            <img class="card-img-top" src="images/primer-plano-codigo-programacion-e-idioma.jpg" alt="Haciendo paginas simples">
+            <div class="card-body">
+              <h5 class="card-title">Dia 1</h5>
+              <p class="card-text">Algunos ejemplos de como crear paginas simples, usando HTML, Bootstrap y Material Design</p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <img class="card-img-top" src="images/primer-plano-codigo-programacion-e-idioma.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Dia 2</h5>
+              <p class="card-text">Aprende a utilizar las etiquetas de encabezado para crear una jerarquia de titulos y subtitulos en tu pagina</p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+        <!-- Repetir este patrón para las 10 tarjetas restantes -->
+      </div>
+    </div>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-141715086-1');
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  </body>
 </html>
